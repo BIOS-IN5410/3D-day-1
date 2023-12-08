@@ -80,7 +80,8 @@ salloc --ntasks=1 --mem-per-cpu=4G --time=03:00:00  --account=ec34
 
 **6. Run HiC-Pro using a container called hicpro_2.11.3_ubuntu.img (Takes ~15 minutes)**
 ```bash
-
+module purge
+module load Python/2.7.18-GCCcore-11.2.0-bare
 apptainer exec /projects/ec34/biosin5410/HiC/hicpro_2.11.3_ubuntu.img HiC-Pro --input fastq --output hicpro_results --conf config-hicpro.txt
 ```
 ```diff
