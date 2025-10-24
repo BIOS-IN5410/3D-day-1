@@ -149,9 +149,12 @@ awk '{printf("%s\t%i\t%i\n",$1,$2,$3+1)}' hic/tads/chr18.consensus.txt > hic/tad
 ```diff
 ! Do you see a relationship between the borders of the TADs (the parts where the line breaks up/down) and the genes? [if so, what kind(s) of relationship(s)]?
 ```
+- Go to 'My Data' -> 'Custom tracks' -> 'Add Custom Tracks'
+- Paste in 'track type=hic name="HIC data" bigDataUrl=https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2973nnn/GSM2973922/suppl/GSM2973922%5Fhic%5FAd%2DD0%2Drep1.hic'
+- Click 'Submit'
+
 
 ```diff
-! Select "Regulation" -> "Rao 2014 Hi-C" -> "Full" to turn on some Hi-C data visualization. 
 ! Can you see a relationship between the Hi-C data and the TADs?
 ```
 **Bonus: 14. Visualize the Hi-C data as a heatmap**
