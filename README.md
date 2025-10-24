@@ -150,7 +150,10 @@ awk '{printf("%s\t%i\t%i\n",$1,$2,$3+1)}' hic/tads/chr18.consensus.txt > hic/tad
 ! Do you see a relationship between the borders of the TADs (the parts where the line breaks up/down) and the genes? [if so, what kind(s) of relationship(s)]?
 ```
 - Go to 'My Data' -> 'Custom tracks' -> 'Add Custom Tracks'
-- Paste in 'track type=hic name="HIC data" bigDataUrl=https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2973nnn/GSM2973922/suppl/GSM2973922%5Fhic%5FAd%2DD0%2Drep1.hic'
+- Paste in:
+  ```
+  track type=hic name="HIC data" bigDataUrl=https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2973nnn/GSM2973922/suppl/GSM2973922%5Fhic%5FAd%2DD0%2Drep1.hic
+  ```
 - Click 'Submit'
 
 
