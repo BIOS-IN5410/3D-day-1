@@ -156,6 +156,7 @@ awk '{printf("%s\t%i\t%i\n",$1,$2,$3+1)}' hic/tads/chr18.consensus.txt > hic/tad
   ```
 - Click 'Submit'
 
+Play with the display settings of the Hi-C data. Explore differnet Display modes, and Draw modes (with resiulution 50kB).
 
 ```diff
 ! Can you see a relationship between the Hi-C data and the TADs?
