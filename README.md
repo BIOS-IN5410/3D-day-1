@@ -63,7 +63,7 @@ nano config-hicpro.txt
 - Change the reference genome on line nr. 47: `REFERENCE_GENOME =` -> `REFERENCE_GENOME = hg19_chr18`
 - Change the reference genome on line nr. 48: `GENOME_SIZE = chrom_hg19.sizes` -> `GENOME_SIZE = [pwd]/chrom_hg19.sizes`
 - Change restriction fragment on line nr. 67: `GENOME_FRAGMENT = HindIII_resfrag_hg19.bed` -> `GENOME_FRAGMENT = [pwd]/HindIII_resfrag_hg19.bed`
-- Change line nr. 89: `BIN_SIZE = 20000 40000 150000 500000 1000000` -> `BIN_SIZE = 50000 1000000`
+- Change line nr. 89: `BIN_SIZE = 20000 40000 150000 500000 1000000` -> `BIN_SIZE = 50000 1000000` (OBS: this is fifty [not five hundred] thousand, and 1 million))
 - Save your changes ("Control + O" / [WriteOut])
 - Exit with Control + X
 - Lost? To see which line you are at, you can use Control + W. If you have forgotten how to use `nano`, go back to the material from the first week
