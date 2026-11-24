@@ -73,7 +73,7 @@ nano config-hicpro.txt
 ```
 
 **5. Set up your own interactive environment**
-Like earlier in the week, we will use `sallic` to allocate resources in an interactive enviroment:
+Like earlier in the week, we will use `salloc` to allocate resources in an interactive enviroment:
 ```bash
 salloc --ntasks=1 --mem-per-cpu=4G --time=03:00:00  --account=ec34
 ```
