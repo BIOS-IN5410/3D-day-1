@@ -56,7 +56,7 @@ The script has seven numbered steps, written as comments (lines starting with `#
 
 The script needs Python with `numpy` and `matplotlib`. We use the same container as the "bonus" in the previous exercise:
 ```bash
-apptainer exec /projects/ec34/biosin5410/HiC/python-healpy.sif python compartments.py \
+apptainer exec /projects/ec432/bios_in5410/HiC/python-healpy.sif python compartments.py \
   hicpro_results/hic_results/matrix/chr18/iced/1000000/chr18_1000000_iced.matrix \
   hicpro_results/hic_results/matrix/chr18/raw/1000000/chr18_1000000_abs.bed \
   chr18 hic/chr18_compartments
