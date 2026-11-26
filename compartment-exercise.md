@@ -17,9 +17,13 @@ As before, stop at the orange lines
 ```
 and note down your answers.
 
-**1. Log in to Fox, go to your 3D-day-1 folder and allocate resources**
+**1. Log in to Fox (unless you are already logged in), go to your 3D-day-1 folder and allocate resources**
+Log in to Fox (if you are not logged in already):
 ```bash
 ssh [ec-username]@fox.educloud.no
+```
+Then navigate to the exercise folder and allocate resources:
+```bash
 cd ~/3D-day-1
 salloc --ntasks=1 --mem-per-cpu=4G --time=00:30:00 --account=ec34
 ```
