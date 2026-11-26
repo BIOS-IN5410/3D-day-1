@@ -25,7 +25,7 @@ ssh [ec-username]@fox.educloud.no
 Then navigate to the exercise folder and allocate resources:
 ```bash
 cd ~/3D-day-1
-salloc --ntasks=1 --mem-per-cpu=4G --time=00:30:00 --account=ec34
+salloc --ntasks=1 --mem-per-cpu=4G --time=00:30:00 --account=ec432
 ```
 
 **2. Find the 1 Mb contact map**
